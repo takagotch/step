@@ -49,7 +49,19 @@ Step(
 );
 ```
 
-```
+```json
+{ "name": "step",
+ "version": "1.0.0",
+ "description": "A simple control-flow library for node.JS that makes parallel execution, serial execution, and error handling painless.",
+ "engine": [ "node >=0.2.0" ],
+ "author": "Tim Caswell <tim@creationix.com>",
+ "license": "MIT",
+ "repository":
+ { "type" : "git",
+   "url" : "http://github.com/createionix/step.git"
+   },
+  "main": "lib/step"
+}
 ```
 
 ```
